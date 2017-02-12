@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("cLock.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("TestApp.Resource", IsApplication=true)]
 
-namespace cLock
+namespace TestApp
 {
 	
 	
@@ -47,6 +47,9 @@ namespace cLock
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int @lock = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -61,25 +64,16 @@ namespace cLock
 		{
 			
 			// aapt resource value: 0x7f050001
-			public const int buttonWrapper = 2131034113;
+			public const int button1 = 2131034113;
 			
 			// aapt resource value: 0x7f050002
-			public const int buttonWrapper2 = 2131034114;
-			
-			// aapt resource value: 0x7f050004
-			public const int buttonWrapper3 = 2131034116;
+			public const int button2 = 2131034114;
 			
 			// aapt resource value: 0x7f050003
-			public const int facebookLoginButton = 2131034115;
-			
-			// aapt resource value: 0x7f050006
-			public const int logInButton = 2131034118;
+			public const int button3 = 2131034115;
 			
 			// aapt resource value: 0x7f050000
 			public const int relativeLayout1 = 2131034112;
-			
-			// aapt resource value: 0x7f050005
-			public const int signInButton = 2131034117;
 			
 			static Id()
 			{

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1"
+    p1:gravity="bottom">
+    <Button
+        p1:text="Log in with Facebook"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/button1"
+        p1:layout_alignBottom="@id/relativeLayout1" />
+    <Button
+        p1:text="Sign up"
+        p1:layout_width="match_parent"
+        p1:layout_weight="1"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/button1"
+        p1:id="@+id/button2" />
+    <Button
+        p1:text="Log in"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/button1"
+        p1:layout_toRightOf="@id/button2"
+        p1:layout_weight="1"
+        p1:id="@+id/button3" />
+</RelativeLayout>

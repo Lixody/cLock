@@ -1,17 +1,16 @@
 ﻿using Android.App;
-using Android.Content;
-using Android.Net;
 using Android.Widget;
 using Android.OS;
 
-namespace cLock
+namespace TestApp
 {
-    [Activity(Label = "cLock", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "TestApp", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+            
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
         }

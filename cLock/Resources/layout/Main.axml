@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1"
+    p1:layout_weight="1">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:id="@+id/buttonWrapper"
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_alignParentBottom="true">
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:id="@+id/buttonWrapper2"
+            p1:layout_width="fill_parent"
+            p1:layout_height="wrap_content"
+            p1:layout_alignParentTop="true"
+            p1:minWidth="25px"
+            p1:minHeight="25px">
+            <Button
+                p1:id="@+id/facebookLoginButton"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:text="Sign in with Facebook" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:id="@+id/buttonWrapper3"
+            p1:layout_width="fill_parent"
+            p1:layout_below="@id/buttonWrapper2"
+            p1:layout_height="wrap_content"
+            p1:layout_alignParentBottom="true">
+            <Button
+                p1:id="@+id/signInButton"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_margin="4dp"
+                p1:layout_weight="1"
+                p1:layout_below="@id/buttonWrapper2"
+                p1:text="Sign in" />
+            <Button
+                p1:id="@+id/logInButton"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_margin="4dp"
+                p1:layout_below="@id/buttonWrapper2"
+                p1:layout_toRightOf="@id/signInButton"
+                p1:layout_weight="1"
+                p1:text="Log in" />
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
